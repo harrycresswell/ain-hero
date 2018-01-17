@@ -1,0 +1,37 @@
+/*------------------------------------*\
+  #HERO
+\*------------------------------------*/
+
+/* Quick reset For demo purpose only */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+picture {
+  width: 100%;
+}
+
+/**
+ * Component: Hero
+ */
+
+.Hero {
+  margin-top: 64px;
+  z-index: -9999;
+}
+
+/* For demo purpose only */
+
+.Navigation {
+  background: #fff;
+  min-height: 74px;
+  box-shadow: 0 2px 10px 0 rgba(27, 32, 47, 0.5);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+}
